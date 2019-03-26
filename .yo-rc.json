@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "gio.com"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "SpringGIO",
+        "packageName": "gio.com",
+        "packageFolder": "gio/com",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NjJjZWM1ZWU2ZDNmN2JjM2M5NTlmZTQ3OGE1YTc4OTNjMzdiYzEyMjA0MzllYjJkYzM0MWY4NDU0ZTdmMDkxOTdjMTU3ZjA2M2FhODI1NzBkNTcwMGRkNWUwZjk2MjliNmE4YmExYTlhNTBmOGY1OWFkNzE5ODJlMmIyMmFkMjE=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
