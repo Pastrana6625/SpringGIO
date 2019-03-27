@@ -36,9 +36,9 @@ spring:
             indent-output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/SpringGIO?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+        url: jdbc:mysql://localhost:3306/spring?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
         username: root
-        password:
+        password: 6625
         hikari:
             poolName: Hikari
             auto-commit: false
@@ -62,7 +62,7 @@ spring:
     mail:
         host: localhost
         port: 25
-        username:
+        username: 
         password:
     messages:
         cache-duration: PT1S # 1 second, see the ISO 8601 standard
